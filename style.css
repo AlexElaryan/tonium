@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #fff;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -166,6 +167,7 @@ footer p {
 }
 
 .cart {
+    position: relative;
     border-radius: 32px;
     padding: 30px;
     background: linear-gradient(259.21deg, rgba(130, 66, 44, 0.4) 0.67%, rgba(28, 14, 9, 0.4) 100%);
@@ -295,6 +297,7 @@ footer p {
 }
 
 .cart2 {
+    position: relative;
     padding: 45px 32px 20px 32px;
     border-radius: 16px;
     display: flex;
@@ -477,6 +480,7 @@ footer p {
 }
 
 .wallet-block {
+    position: relative;
     width: 100%;
     padding: 26px 64px;
     min-height: 463px;
@@ -582,6 +586,7 @@ footer p {
 }
 
 .labarator-block {
+    position: relative;
     width: 100%;
     display: flex;
     align-items: center;
@@ -657,4 +662,150 @@ footer p {
     font-size: 32px;
     font-weight: bold;
     color: #fff;
+}
+
+
+.start {
+    align-items: flex-end;
+    gap: 100px;
+}
+
+.start .connect-wallet {
+    font-weight: normal;
+}
+
+.start-block {
+    display: none;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.start-active {
+    display: flex;
+}
+
+.start-block h2 {
+    font-weight: bold;
+    font-size: 32px;
+    color: #fff;
+}
+
+.start-block p {
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+}
+
+.start-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+.start-right > div {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.start-block button {
+    font-size: 24px;
+    font-weight: normal;
+    border: 3px solid #fff;
+    border-radius: 8px;
+    background: none;
+    padding: 10px 28.5px;
+}
+
+.start-block2 p {
+    margin-bottom: 18px;
+}
+.start-block3 p {
+    margin-bottom: 72px;
+}
+.start-block4 p {
+    margin-bottom: 54px;
+}
+.start-block5 p {
+    margin-bottom: 36px;
+}
+
+.forstart3Img {
+    position: relative;
+}
+
+.forstart3Img img:last-of-type {
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.cart-popup , .cashout-popup {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 327px;
+    height: 214px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    background: url(img/popup.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    padding: 32px 16px;
+    transition: .2s;
+    scale: 0;
+    z-index: 999;
+}
+
+.cashout-popup {
+    z-index: 9999;
+}
+
+.cart-popup-open {
+    scale: 1;
+}
+
+.cart-popup h2 , .cashout-popup h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cart-popup h4 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.home {
+    padding-top: 180px;
+}
+
+.home header {
+    width: calc(100% - 300px);
+    position: fixed;
+    top: 28px;
+    left: 150px;
+    z-index: 1111111;
+}
+
+.home .nav {
+    width: calc(100% - 300px);
+    position: fixed;
+    top: 131px;
+    left: 150px;
+    padding-top: 0px;
+    z-index: 1111111;
+
 }

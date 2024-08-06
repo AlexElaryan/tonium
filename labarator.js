@@ -1,4 +1,4 @@
-let buyButtons = document.querySelectorAll('.buy');
+let buyButtons = document.querySelectorAll('.connect');
 let cartPopups = document.querySelectorAll('.cart-popup');
 
 buyButtons.forEach((button, index) => {
